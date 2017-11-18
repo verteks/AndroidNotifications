@@ -1,0 +1,118 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 352256 bytes for object start array expansion
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   In 32 bit mode, the process size limit was hit
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Use 64 bit Java on a 64 bit OS
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (objectStartArray.cpp:102), pid=11308, tid=0x0000000000003ed4
+#
+# JRE version:  (8.0_112-b06) (build )
+# Java VM: OpenJDK 64-Bit Server VM (25.112-b06 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0000000001a80800):  JavaThread "Unknown thread" [_thread_in_vm, id=16084, stack(0x0000000001930000,0x0000000001a30000)]
+
+Stack: [0x0000000001930000,0x0000000001a30000]
+[error occurred during error reporting (printing stack bounds), id 0xc0000005]
+
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x0000000001a80800 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=16084, stack(0x0000000001930000,0x0000000001a30000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (0 events):
+No events
+
+
+Dynamic libraries:
+0x00007ff660fa0000 - 0x00007ff660fd1000 	C:\Program Files\Android\Android Studio\jre\bin\java.exe
+0x00007ffada1b0000 - 0x00007ffada38b000 	C:\WINDOWS\SYSTEM32\ntdll.dll
+0x00007ffad9860000 - 0x00007ffad990e000 	C:\WINDOWS\System32\KERNEL32.DLL
+0x00007ffad74a0000 - 0x00007ffad76e9000 	C:\WINDOWS\System32\KERNELBASE.dll
+0x00007ffada0a0000 - 0x00007ffada141000 	C:\WINDOWS\System32\ADVAPI32.dll
+0x00007ffad7850000 - 0x00007ffad78ed000 	C:\WINDOWS\System32\msvcrt.dll
+0x00007ffada150000 - 0x00007ffada1a9000 	C:\WINDOWS\System32\sechost.dll
+0x00007ffad9140000 - 0x00007ffad9265000 	C:\WINDOWS\System32\RPCRT4.dll
+0x00007ffad9910000 - 0x00007ffad9a5a000 	C:\WINDOWS\System32\USER32.dll
+0x00007ffad76f0000 - 0x00007ffad770e000 	C:\WINDOWS\System32\win32u.dll
+0x00007ffad9270000 - 0x00007ffad9297000 	C:\WINDOWS\System32\GDI32.dll
+0x00007ffad7240000 - 0x00007ffad73c8000 	C:\WINDOWS\System32\gdi32full.dll
+0x00007ffad66d0000 - 0x00007ffad676a000 	C:\WINDOWS\System32\msvcp_win.dll
+0x00007ffad6a40000 - 0x00007ffad6b36000 	C:\WINDOWS\System32\ucrtbase.dll
+0x00007ffaca360000 - 0x00007ffaca5c7000 	C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.15063.0_none_108e4f62dfe5d999\COMCTL32.dll
+0x00007ffad9500000 - 0x00007ffad97f9000 	C:\WINDOWS\System32\combase.dll
+0x00007ffad73d0000 - 0x00007ffad743a000 	C:\WINDOWS\System32\bcryptPrimitives.dll
+0x00007ffad9000000 - 0x00007ffad902d000 	C:\WINDOWS\System32\IMM32.DLL
+0x000000006a9b0000 - 0x000000006aa82000 	C:\Program Files\Android\Android Studio\jre\jre\bin\msvcr100.dll
+0x000000006ab70000 - 0x000000006b3ac000 	C:\Program Files\Android\Android Studio\jre\jre\bin\server\jvm.dll
+0x00007ffad94f0000 - 0x00007ffad94f8000 	C:\WINDOWS\System32\PSAPI.DLL
+0x00007ffad4410000 - 0x00007ffad4433000 	C:\WINDOWS\SYSTEM32\WINMM.dll
+0x00007ffad1a20000 - 0x00007ffad1a2a000 	C:\WINDOWS\SYSTEM32\VERSION.dll
+0x00007ffacc460000 - 0x00007ffacc469000 	C:\WINDOWS\SYSTEM32\WSOCK32.dll
+0x00007ffad9bd0000 - 0x00007ffad9c3c000 	C:\WINDOWS\System32\WS2_32.dll
+0x00007ffad43b0000 - 0x00007ffad43db000 	C:\WINDOWS\SYSTEM32\winmmbase.dll
+0x00007ffad6770000 - 0x00007ffad67b9000 	C:\WINDOWS\System32\cfgmgr32.dll
+0x00007ffacc450000 - 0x00007ffacc45f000 	C:\Program Files\Android\Android Studio\jre\jre\bin\verify.dll
+0x00007ffacc420000 - 0x00007ffacc449000 	C:\Program Files\Android\Android Studio\jre\jre\bin\java.dll
+0x00007ffacc400000 - 0x00007ffacc416000 	C:\Program Files\Android\Android Studio\jre\jre\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Djava.awt.headless=true -Xmx1024M -Dfile.encoding=windows-1251 -Duser.country=RU -Duser.language=ru -Duser.variant 
+java_command: com.android.dx.command.Main --dex --num-threads=4 --output C:\Users\vshir\AndroidStudioProjects\Lab6_NotificationsLab\app\build\intermediates\pre-dexed\androidTest\debug\robotium-solo-5.3.1_18da74745492be23d0d5beec043d22423beaa4e6.jar C:\Users\vshir\.gradle\caches\modules-2\files-2.1\com.jayway.android.robotium\robotium-solo\5.3.1\e6e664ab1b59d2504c3529f128747c13487f96ca\robotium-solo-5.3.1.jar
+java_class_path (initial): C:\Users\vshir\AppData\Local\Android\sdk\build-tools\25.0.3\lib\dx.jar
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+PATH=C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Borland\Delphi7\Bin;C:\Program Files (x86)\Borland\Delphi7\Projects\Bpl\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;;C:\Program Files\Common Files\Datawatch\Drivers\7.1.5\jre\bin;C:\Program Files\Common Files\Datawatch\Drivers\7.1.5\jre\bin\server;C:\Program Files (x86)\sbt\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\MATLAB\R2017a\bin;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files (x86)\scala\bin;C:\Users\vshir\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Heroku\bin;
+USERNAME=vshir
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=AMD64 Family 21 Model 2 Stepping 0, AuthenticAMD
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 10.0 , 64 bit Build 15063 (10.0.15063.296)
+
+CPU:total 8 (8 cores per cpu, 1 threads per core) family 21 model 2 stepping 0, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, aes, clmul, mmxext, 3dnowpref, lzcnt, sse4a, tsc, tscinvbit, tscinv, bmi1
+
+Memory: 4k page, physical 16673724k(6223172k free), swap 17722300k(5108k free)
+
+vm_info: OpenJDK 64-Bit Server VM (25.112-b06) for windows-amd64 JRE (1.8.0_112-release-b06), built on Dec  8 2016 00:54:26 by "builder" with MS VC++ 10.0 (VS2010)
+
+time: Sun Nov 19 00:47:10 2017
+elapsed time: 0 seconds (0d 0h 0m 0s)
+

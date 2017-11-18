@@ -1,0 +1,296 @@
+[
+    {
+        "outputFile": "C:\\Users\\vshir\\AndroidStudioProjects\\Lab6_NotificationsLab\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "C:\\Users\\vshir\\AndroidStudioProjects\\Lab6_NotificationsLab\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 89,
+                        "endColumn": 57,
+                        "endOffset": 142
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 113,
+                    "endColumn": 55,
+                    "endOffset": 164
+                },
+                "from": {
+                    "file": "C:\\Users\\vshir\\AndroidStudioProjects\\Lab6_NotificationsLab\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 147,
+                        "endColumn": 55,
+                        "endOffset": 198
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 169,
+                    "endColumn": 41,
+                    "endOffset": 206
+                },
+                "from": {
+                    "file": "C:\\Users\\vshir\\AndroidStudioProjects\\Lab6_NotificationsLab\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 203,
+                        "endColumn": 41,
+                        "endOffset": 240
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 211,
+                    "endColumn": 46,
+                    "endOffset": 253
+                },
+                "from": {
+                    "file": "C:\\Users\\vshir\\AndroidStudioProjects\\Lab6_NotificationsLab\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 377,
+                        "endColumn": 46,
+                        "endOffset": 419
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 258,
+                    "endColumn": 53,
+                    "endOffset": 307
+                },
+                "from": {
+                    "file": "C:\\Users\\vshir\\AndroidStudioProjects\\Lab6_NotificationsLab\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 53,
+                        "endOffset": 105
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 312,
+                    "endColumn": 91,
+                    "endOffset": 399
+                },
+                "from": {
+                    "file": "C:\\Users\\vshir\\AndroidStudioProjects\\Lab6_NotificationsLab\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 424,
+                        "endColumn": 91,
+                        "endOffset": 511
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 404,
+                    "endColumn": 87,
+                    "endOffset": 487
+                },
+                "from": {
+                    "file": "C:\\Users\\vshir\\AndroidStudioProjects\\Lab6_NotificationsLab\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 600,
+                        "endColumn": 87,
+                        "endOffset": 683
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 492,
+                    "endColumn": 83,
+                    "endOffset": 571
+                },
+                "from": {
+                    "file": "C:\\Users\\vshir\\AndroidStudioProjects\\Lab6_NotificationsLab\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 516,
+                        "endColumn": 83,
+                        "endOffset": 595
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 576,
+                    "endColumn": 59,
+                    "endOffset": 631
+                },
+                "from": {
+                    "file": "C:\\Users\\vshir\\AndroidStudioProjects\\Lab6_NotificationsLab\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 317,
+                        "endColumn": 59,
+                        "endOffset": 372
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 636,
+                    "endColumn": 59,
+                    "endOffset": 691
+                },
+                "from": {
+                    "file": "C:\\Users\\vshir\\AndroidStudioProjects\\Lab6_NotificationsLab\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 257,
+                        "endColumn": 59,
+                        "endOffset": 312
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 696,
+                    "endColumn": 88,
+                    "endOffset": 780
+                },
+                "from": {
+                    "file": "C:\\Users\\vshir\\AndroidStudioProjects\\Lab6_NotificationsLab\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 1,
+                        "startOffset": 685,
+                        "endColumn": 85,
+                        "endOffset": 769
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 785,
+                    "endColumn": 67,
+                    "endOffset": 848
+                },
+                "from": {
+                    "file": "C:\\Users\\vshir\\AndroidStudioProjects\\Lab6_NotificationsLab\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 189,
+                        "endColumn": 67,
+                        "endOffset": 252
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 853,
+                    "endColumn": 78,
+                    "endOffset": 927
+                },
+                "from": {
+                    "file": "C:\\Users\\vshir\\AndroidStudioProjects\\Lab6_NotificationsLab\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 110,
+                        "endColumn": 78,
+                        "endOffset": 184
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 932,
+                    "endLine": 21,
+                    "endColumn": 12,
+                    "endOffset": 1218
+                },
+                "from": {
+                    "file": "C:\\Users\\vshir\\AndroidStudioProjects\\Lab6_NotificationsLab\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 186,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 472
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1223,
+                    "endLine": 24,
+                    "endColumn": 12,
+                    "endOffset": 1378
+                },
+                "from": {
+                    "file": "C:\\Users\\vshir\\AndroidStudioProjects\\Lab6_NotificationsLab\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 510,
+                        "endLine": 17,
+                        "endColumn": 12,
+                        "endOffset": 665
+                    }
+                }
+            }
+        ]
+    }
+]
